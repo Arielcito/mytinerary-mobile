@@ -26,7 +26,10 @@ const Card = ({ city }) => {
 export default Card;
 
 const styles = StyleSheet.create({
-  item: { justifyContent: "center" },
+  item: { 
+    margin:100,
+    justifyContent: "center" 
+  },
   slide: {
     width: 200,
     height: 200,

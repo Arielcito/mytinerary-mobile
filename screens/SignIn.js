@@ -72,9 +72,9 @@ const LogIn = (props) => {
         <TouchableWithoutFeedback onPress={() => {
             Keyboard.dismiss()
         }}>
-            <ImageBackground source={require('../assets/registerbackground.jpg')} style={styles.skyImage}>
+            <ImageBackground source={require('../assets/registerbackground.jpg')} style={styles.bgImage}>
             <Text style={styles.title}>Welcome back! </Text>
-            <Text style={styles.text}>Havent register yet yet?</Text>
+            <Text style={styles.signuptext}>Havent register yet yet?</Text>
                     <Button title="Sign Up" color="black"/>
                 <TextInput 
                     style={styles.input}
@@ -127,13 +127,13 @@ const styles = StyleSheet.create({
         width: "85%",
     },
 
-    text: {
+    signuptext: {
         marginVertical: 10,
         fontSize: 17,
         color: "white"
     },
 
-    skyImage: {
+    bgImage: {
         flex: 1,
         width: "100%",
         height: 910,

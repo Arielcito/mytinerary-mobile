@@ -20,39 +20,39 @@ const CarouselComp = (props) => {
 
   const items = [
     {
-      src: require("../assets/carousel/barcelona.jpg"),
+      src: 'https://mytinerary-serato.herokuapp.com/static/media/barcelona.74bedf6a.jpg',
       title: "Barcelona",
     },
     {
-      src: require("../assets/carousel/rome.jpg"),
+      src: 'https://mytinerary-serato.herokuapp.com/static/media/rome.be899a96.jpg',
       title: "Rome",
     },
     {
-      src: require("../assets/carousel/istanbul.jpg"),
+      src: 'https://mytinerary-serato.herokuapp.com/static/media/istanbul.5565e9f0.jpg',
       title: "Istanbul",
     },
     {
-      src: require("../assets/carousel/london.jpg"),
+      src:'https://mytinerary-serato.herokuapp.com/static/media/london.477c827a.jpg',
       title: "London",
     },
     {
-      src: require("../assets/carousel/milan.jpeg"),
+      src: 'https://mytinerary-serato.herokuapp.com/static/media/milan.ab0e39d5.jpeg',
       title: "Milan",
     },
     {
-      src: require("../assets/carousel/paris.jpg"),
+      src: 'https://mytinerary-serato.herokuapp.com/static/media/paris.96ca9ce9.jpg',
       title: "Paris",
     },
     {
-      src: require("../assets/carousel/buenosaires.jpg"),
+      src: 'https://mytinerary-serato.herokuapp.com/static/media/buenosaires.c751e05a.jpg',
       title: "Buenos aires",
     },
     {
-      src: require("../assets/carousel/macchupicchu.jpg"),
+      src: 'https://mytinerary-serato.herokuapp.com/static/media/macchupicchu.ea1cafdc.jpg',
       title: "Macchu picchu",
     },
     {
-      src: require("../assets/carousel/toulouse.jpg"),
+      src: 'https://mytinerary-serato.herokuapp.com/static/media/toulouse.c7cac819.jpg',
       title: "Toulouse",
     },
   ];
