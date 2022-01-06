@@ -89,6 +89,8 @@ const SignUp = (props) => {
         }}>
             <ImageBackground source={require('../assets/registerbackground.jpg')} style={styles.skyImage}>
                 <Text style={styles.title}>Create your account</Text>
+                <Text style={styles.text}>Already have an account?</Text>
+                <Button title="Log In" color="black" />
                 <TextInput 
                 style={styles.input}
                 placeholder="First Name"
@@ -140,9 +142,8 @@ const SignUp = (props) => {
                 password={true}
                 onChangeText={(e) => inputHandler(e, "password")}
                 />
-                <Button onPress={submitForm} title="Sign Up" color="black" borderRadius="5" />
-                <Text style={styles.text}>Already have an account?</Text>
-                <Button title="Log In" color="black" />
+                <Button onPress={submitForm} title="Sign Up" color="rgb(211, 47, 47)" borderRadius="5" />
+                
             </ImageBackground>
         </TouchableWithoutFeedback>
     )

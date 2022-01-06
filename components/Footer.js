@@ -21,7 +21,6 @@ const styles = StyleSheet.create({
     },
 
     footerText: {
-        fontFamily: "Nunito_200ExtraLight",
         color: "white"
     }
 })

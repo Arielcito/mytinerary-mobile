@@ -318,13 +318,11 @@ const styles = StyleSheet.create({
   },
 
   activityTitle: {
-    fontFamily: "Nunito_400Regular",
     textAlign: "center",
     fontSize: 20,
   },
 
   activitiesTitle: {
-    fontFamily: "Nunito_600SemiBold",
     textAlign: "center",
     fontSize: 25,
   },
@@ -356,7 +354,6 @@ const styles = StyleSheet.create({
 
   authorName: {
     marginLeft: 10,
-    fontFamily: "Nunito_400Regular",
     fontSize: 18,
   },
 
@@ -371,20 +368,17 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    fontFamily: "Nunito_400Regular",
     fontSize: 25,
     textAlign: "center",
     color: "white",
   },
 
   description: {
-    fontFamily: "Nunito_400Regular",
     fontSize: 14,
     marginLeft: 10,
   },
 
   inputComment: {
-    fontFamily: "Nunito_400Regular",
     backgroundColor: "lightgrey",
     width: "80%",
     borderRadius: 30,
@@ -432,7 +426,6 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    fontFamily: "Nunito_400Regular",
     color: "white",
     fontSize: 15,
     textAlign: "center",

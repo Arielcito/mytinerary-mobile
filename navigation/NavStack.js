@@ -40,7 +40,13 @@ const Navigator = (props) => {
               <TouchableWithoutFeedback
                 onPress={() => navigation.navigate("Signin")}
               >
-                <MaterialIcons name="account-circle" size={24} color="black" />
+                <Text style={{color:"blue"}} >Sign In</Text>
+              </TouchableWithoutFeedback>
+              <Text>//</Text>
+              <TouchableWithoutFeedback
+                onPress={() => navigation.navigate("Signup")}
+              >
+                <Text style={{color:"blue"}}> Sign Up</Text>
               </TouchableWithoutFeedback>
             </>
           ) : (
@@ -113,7 +119,7 @@ const Navigator = (props) => {
 
 const mapStateToProps = (state) => {
   return {
-    user: true,
+    user: state.authReducer.user,
   };
 };
 
@@ -123,6 +129,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(Navigator);
 const styles = StyleSheet.create({
     drawerStyle:{
         width:'65%',
+        height:100,
         justifyContent:'space-between'
     },
     drawerItemStyle:{

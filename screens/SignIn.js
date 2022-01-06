@@ -73,7 +73,9 @@ const LogIn = (props) => {
             Keyboard.dismiss()
         }}>
             <ImageBackground source={require('../assets/registerbackground.jpg')} style={styles.skyImage}>
-            <Text style={styles.title}>Log in</Text>
+            <Text style={styles.title}>Welcome back! </Text>
+            <Text style={styles.text}>Havent register yet yet?</Text>
+                    <Button title="Sign Up" color="black"/>
                 <TextInput 
                     style={styles.input}
                     placeholder="Email"
@@ -86,9 +88,8 @@ const LogIn = (props) => {
                     password={true}
                     onChangeText={(e) => inputHandler(e, "password")}
                     />
-                    <Button title="Log In" color="black" onPress={submitForm}/>
-                    <Text style={styles.text}>Don't have an account yet?</Text>
-                    <Button title="Sign Up" color="black"/>
+                    <Button title="Sign In" color="rgb(211, 47, 47)" onPress={submitForm}/>
+                    
             </ImageBackground>
         </TouchableWithoutFeedback>
     )
@@ -109,13 +110,11 @@ export default connect(mapStateToProps, mapDispatchToProps)(LogIn)
 const styles = StyleSheet.create({
 
     title: {
-        fontFamily:"Nunito_700Bold",
         fontSize: 25,
         marginBottom: 20
     },
 
     input: {
-        fontFamily:"Nunito_400Regular",
         borderWidth: 1,
         borderColor: "black",
         padding: 10,
@@ -129,7 +128,6 @@ const styles = StyleSheet.create({
     },
 
     text: {
-        fontFamily:"Nunito_400Regular",
         marginVertical: 10,
         fontSize: 17,
         color: "white"

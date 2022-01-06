@@ -69,7 +69,6 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: "white",
         paddingVertical: 5,
-        fontFamily: "Nunito_400Regular",
         fontSize: 22,
         textAlign: "center",
         width: 150
